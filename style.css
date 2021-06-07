@@ -159,18 +159,20 @@ p {
     margin-bottom: 20px;
    flex: 1 0 0;
 }
-.box-1,.box-2,.box-3,.box-4{/*children*/
+.box-1,.box-2{/*children*/
     height: 300px;
     background-color: #8363a7;
     width: 300px;
     border: 2px solid purple;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
+    font-weight: bolder;
     color: #ffffff;
    /* align-self: flex-start; */
-
 }
+
+ 
+
 .box-1{
 background-image: url("./images/fashion_sat2.jpg"); 
 /*flex-grow: 2 1 20em;*/  
@@ -181,7 +183,20 @@ background-image: url("./images/fashion_sat2.jpg");
     /*flex-grow: 1; */
 } 
 
+.box-3,.box-4{ 
+    height: 300px;
+    background-color: lightgray;
+    width: 300px;
+    border: 2px solid purple;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: #ffffff;
+    /* align-self: flex-start; */
+}
 
+ 
+ 
 /* all subheader margin and font size */
 h2 {
     margin-bottom: 20px;
