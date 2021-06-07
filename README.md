@@ -1,8 +1,15 @@
 # L.-K.-Y.-Portfolio_update - web appication
 
 ## Description
-- This project is an initial portfolio of work to showcase my skills and talents to potential employers.  
-- Many coding pracitices were clarified for me during this project and awareness of specific syntax formats.
+- This project is the phase 1 revision of the L.K.Y Enterprises Portfolio website featuring the current development
+ projects to showcase my skills and talents to potential employers.  The following revisions to the site have been deployed:
+    - about me section: update of text content
+    - projects section: addition of Project 1 picture and link
+    - contacts section: addtion of new email address, github repository url, removal of personal email address, text alignment
+    - resume section:   addition of revised resume
+    - github:           repository profile update, picture added and personal statement
+    - 
+
 ## User Story
 - AS AN employer
 - I WANT to view a potential employee's deployed portfolio of work samples
@@ -16,11 +23,11 @@
 
 ## Usage
 Here is a link to view the deployed application: 
-https://sclo00ps.github.io/L.-K.-Y.-Portfolio/
+https://github.com/sclo00ps/L.-K.-Y.-Portfolio_update/blob/main/index.html
 
 
 Below is a screenshot of the live application: 
-![alt text](assets/images/screenshot.png)
+![Updated L.K.Y. Portfolio screenshot](assets/images/lky_portfolio_update2.png)
 
 ## Credits
 Lougine Scott

@@ -176,10 +176,10 @@ background-image: url("./images/fashion_sat2.jpg");
 /*flex-grow: 2 1 20em;*/  
 }
 
-/*.box-2{
-    background-image: url("./images/fashion_sat2.jpg"); 
-    /*flex-grow: 2;  
-} */
+.box-2{
+    background-image: url("./images/perfect-night-in2.jpg"); 
+    /*flex-grow: 1; */
+} 
 
 
 /* all subheader margin and font size */
