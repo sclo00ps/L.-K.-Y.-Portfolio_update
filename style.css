@@ -33,40 +33,7 @@ header {
     border: 2px solid purple;
 }
 
-/*Tablets -  media query code header*/
-@media screen and (max-width: 992px){
-    .container-2 {
-    max-width: 50%;
-   }    
-}
 
-
-/*Tablets -  media query code header**/
-@media screen and (max-width: 992px){
-    .container-2 {
-   flex-direction: column;
-   flex-wrap: wrap;  
-   }     
-}
-
-/*Large smartphones -  media query code here 060421*/
-@media screen and (max-width: 768px){
-    .container {
-    flex-direction: column;
-    flex-wrap: wrap;   
-   }    
-} 
-
-/*Large smartphones -  media query code here 060421*/
-@media screen and (max-width: 576px){
-    nav {
-         float: none;
-         width: 100%;
-        flex-direction: column;
-        flex-wrap: wrap;
-
-          }
-        }
     
 /* Defining the site header font size and display header text horizontally */
  h1 {
@@ -214,6 +181,40 @@ h3 {
     border: 2px solid orangered; 
  }
 
+ /*Tablets -  media query code header*/
+@media screen and (max-width: 992px){
+    .container-2 {
+    max-width: 50%;
+   }    
+}
+
+
+/*Tablets -  media query code header**/
+@media screen and (max-width: 992px){
+    .container-2 {
+   flex-direction: column;
+   flex-wrap: wrap;  
+   }     
+}
+
+/*Large smartphones -  media query code here 060421*/
+@media screen and (max-width: 768px){
+    .container {
+    flex-direction: column;
+    flex-wrap: wrap;   
+   }    
+} 
+
+/*Large smartphones -  media query code here 060421*/
+@media screen and (max-width: 576px){
+    nav {
+         float: none;
+         width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+          }
+        }
 
  /* first line of footer text formatting */
 .footer {
