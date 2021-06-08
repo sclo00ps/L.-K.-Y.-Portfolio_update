@@ -8,7 +8,11 @@
 /* The web page background color is light grayish green*/
 body {
     background-color:bisque;
+    display: flex;
+    flex-wrap: wrap;
+   
 }
+
 
 /* 1. The header box padding is set to 20 pixels, the font family is defined.
    2. The heading background and text color are defined */
@@ -110,21 +114,21 @@ p {
     border: 3px solid purple;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    background-color: #8363a7; 
+    background-color: #8363a7;
     color: #ffffff;
 }
 
 .container-2 {/*parent*/
     height: 300px;
-    width: 1425px;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     align-content: center;
     flex-direction: row; /* direction of boxes */
-    gap: 60px; /* display space between boxes */
+    gap: 60px; /*display space between boxes */
     margin-bottom: 20px;
-   flex: 1 0 0;
+     
 }
 .box-1,.box-2{/*children*/
     height: 300px;
@@ -135,14 +139,14 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
     color: #ffffff;
+    display: flex;
+    /*flex: 0 1 50%;*/
    /* align-self: flex-start; */
 }
 
- 
-
-.box-1{
+ .box-1{
 background-image: url("./images/fashion_sat2.jpg"); 
-/*flex-grow: 2 1 20em;*/  
+/*flex: 2 1 20em;*/  
 }
 
 .box-2{
@@ -159,6 +163,8 @@ background-image: url("./images/fashion_sat2.jpg");
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
     color: #ffffff;
+    display: flex;
+    /*flex: 0 1 50%;*/
     /* align-self: flex-start; */
 }
 
@@ -181,40 +187,56 @@ h3 {
     border: 2px solid orangered; 
  }
 
- /*Tablets -  media query code header*/
+ @media screen and (max-width: 768px) {
+    body,
+    nav{
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container-2, .container {
+      flex-direction: column;
+    }
+  }
+ 
+ /*Tablets -  media query code header
 @media screen and (max-width: 992px){
-    .container-2 {
-    max-width: 50%;
-   }    
-}
-
-
-/*Tablets -  media query code header**/
-@media screen and (max-width: 992px){
-    .container-2 {
+    body,.container-2 {
+    max-width: 75%;
    flex-direction: column;
    flex-wrap: wrap;  
    }     
 }
 
-/*Large smartphones -  media query code here 060421*/
+/*Tablets -  media query code header
+@media screen and (max-width: 992px){
+    .box-1 {
+    max-width: 75%;
+   flex-direction: column;
+   flex-wrap: wrap;  
+   }     
+}
+
+/*Large smartphones -  media query code here 060421
 @media screen and (max-width: 768px){
-    .container {
+    body {
+    max-width: 50;
     flex-direction: column;
     flex-wrap: wrap;   
    }    
 } 
+/*
 
 /*Large smartphones -  media query code here 060421*/
-@media screen and (max-width: 576px){
+@media screen and (max-width: 768px){
     nav {
          float: none;
          width: 100%;
         flex-direction: column;
-        flex-wrap: wrap;
-
-          }
-        }
+        /*flex-wrap: wrap;*/
+    }
+}
 
  /* first line of footer text formatting */
 .footer {
@@ -231,4 +253,5 @@ h3 {
     font-size: 20px;
     color: #8363a7;
     font-weight: bold;
-}
+   
+    }
