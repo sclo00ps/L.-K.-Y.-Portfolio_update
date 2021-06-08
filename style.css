@@ -8,11 +8,10 @@
 /* The web page background color is light grayish green*/
 body {
     background-color:bisque;
-    display: flex;
-    flex-wrap: wrap;
+    /*display: flex;
+    flex-wrap: wrap;*/
    
 }
-
 
 /* 1. The header box padding is set to 20 pixels, the font family is defined.
    2. The heading background and text color are defined */
@@ -252,6 +251,5 @@ h3 {
 .footer h2 {
     font-size: 20px;
     color: #8363a7;
-    font-weight: bold;
-   
-    }
+    font-weight: bold; 
+ }
