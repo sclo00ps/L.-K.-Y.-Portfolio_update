@@ -153,6 +153,11 @@ background-image: url("./images/fashion_sat2.jpg");
     /*flex-grow: 1; */
 } 
 
+.box-3{
+    background-image: url("./images/givehub.JPG"); 
+    /*flex-grow: 1; */
+} 
+
 .box-3,.box-4{ 
     height: 300px;
     background-color: lightgray;
