@@ -1,4 +1,4 @@
-# L.-K.-Y.-Portfolio_update - web appication
+# L.-K.-Y.-Portfolio_update - web application
 
 ## Description
 - This project is the phase 1 revision of the L.K.Y Enterprises Portfolio website featuring the current development
